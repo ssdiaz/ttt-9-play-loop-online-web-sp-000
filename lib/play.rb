@@ -41,7 +41,7 @@ def play(board)
 #until position_taken?(board, location) == true
 #end
 turn_count = 0
-  while turn_count < 5
+  while turn_count < 10
     turn(board)
     turn_count = turn_count + 1
   end
