@@ -39,7 +39,7 @@ end
 def play(board)
   #Start a loop and call #turn
 turn_count = 0
-  until turn_count == 9
+  while turn_count < 10
     turn(board)
     turn_count = turn_count + 1
   end
