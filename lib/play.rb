@@ -39,7 +39,6 @@ end
 def play(board)
   #Start a loop and call #turn
 #until position_taken?(board, location) == true
-puts  "run"
 #end
 turn_count = 0
   while turn_count < 2
