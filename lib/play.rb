@@ -37,10 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-counter = 0
-  until counter == 9
+
+  until !position_taken?
     turn(board)
-    counter += 1
   end
 #Start a loop and call #turn
 end
