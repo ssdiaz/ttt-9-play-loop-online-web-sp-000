@@ -42,7 +42,7 @@ def play(board)
 puts  "run"
 #end
 
-  while turn_count < 10
+  while turn_count < 2
     turn_count = 0
     turn(board)
     turn_count = turn_count + 1
