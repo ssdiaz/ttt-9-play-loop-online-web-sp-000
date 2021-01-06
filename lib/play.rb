@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   #Start a loop and call #turn
-until position_taken?(board,location) == true
+until position_taken?(board, location) == true
   "run"
 end
 #turn_count = 0
