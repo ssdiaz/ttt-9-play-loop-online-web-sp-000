@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
 
-  until !position_taken?
+  until !position_taken?(board, location)
     turn(board)
   end
 #Start a loop and call #turn
